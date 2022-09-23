@@ -3,8 +3,8 @@
 # - enter values in Streamlit #
 # - get prediction            #  
 ###############################
-import pickle
-from turtle import st
+#import pickle
+#from turtle import st
 
 import pandas as pd
 import streamlit as st
@@ -233,4 +233,4 @@ if st.button("Get Your Prediction"):
     # Making predictions            
    # prediction = loaded_model.predict_proba(X)[:, 1]  # The model produces (p0,p1), we want p1.
 
-    st.success('Your Target is {}'.format(prediction))
+    #st.success('Your Target is {}'.format(prediction))
